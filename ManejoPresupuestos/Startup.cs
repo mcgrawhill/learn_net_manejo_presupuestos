@@ -28,8 +28,6 @@ namespace ManejoPresupuestos
             services.AddTransient<IRepositorioTiposCuentas, RepositorioTiposCuentas>();
             services.AddTransient<IRepositorioCuentas, RepositorioCuentas>();
             services.AddTransient<IServicioUsuarios, ServicioUsuarios>();
-
-            services.AddRazorPages().AddRazorRuntimeCompilation();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
